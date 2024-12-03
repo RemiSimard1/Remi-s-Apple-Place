@@ -1,5 +1,5 @@
-MediaSourceHandle.exports = function(eleventyConfig){
-    eleventyConfig.addPassthroughCopy("styles/");
-    eleventyConfig.addPassthroughCopy("images/");
-    eleventyConfig.addPassthroughCopy("scripts/");
-}
+modulemodule.exports = function(eleventyConfig) {
+    eleventyConfig.addPassthroughCopy("styles/*");
+    eleventyConfig.addPassthroughCopy("images/*");
+    eleventyConfig.addPassthroughCopy("scripts/*");
+};
