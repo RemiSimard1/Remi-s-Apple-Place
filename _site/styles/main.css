@@ -4,6 +4,7 @@ nav ul {
     justify-content: flex-start;
     gap: 5em;
     text-decoration: none;
+    background-color: white;
     
 }
 nav{
