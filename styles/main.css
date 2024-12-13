@@ -5,6 +5,7 @@ nav ul {
     gap: 5em;
     text-decoration: none;
     background-color: white;
+    position: sticky;
     
     
 }
@@ -18,7 +19,14 @@ color: black;
 font-weight: 400;
 font-size: 25px;
 
+
 }
+
 li.selected a {
     text-decoration: underline;
+}
+
+.images img:not(.ignore-style) {
+    width: 45%;
+    border-radius: 8px;
 }
