@@ -8,22 +8,22 @@ nav ul {
     padding: 10px 20px;
     top: 0;
     
-    
-    
 }
+
 nav{
     border: 1px solid black;
     position: sticky;
 	top: 0px;
 	left: 0px;
 	right: 0px;
+    background-color: white;
 }
 
 nav ul li a{
 text-decoration: none;
 color: black;
 font-weight: 400;
-font-size: 25px;
+font-size: 27px;
 
 
 }
@@ -32,7 +32,6 @@ li.selected a {
     text-decoration: underline;
 }
 
-.images img:not(.ignore-style) {
-    width: 45%;
-    border-radius: 8px;
-}
+p{
+    font-size: 1rem;
+   }
